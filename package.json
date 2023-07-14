@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ymacedo05.github.io/teste02/",
   "name": "teste02",
   "version": "0.1.0",
   "private": true,
@@ -10,9 +11,8 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "homepage": "https://ymacedo05.github.io/teste02/",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "scripts": {
     "start": "react-scripts start",
